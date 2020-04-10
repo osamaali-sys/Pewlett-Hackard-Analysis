@@ -168,3 +168,6 @@ last_name,
 dept_name
 FROM dept_info
 WHERE dept_info.dept_name IN ('Sales', 'Development');
+
+-----------------------------------------------------------------------------------
+
