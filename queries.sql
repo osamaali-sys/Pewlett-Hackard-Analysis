@@ -137,7 +137,7 @@ SELECT e.emp_no,
 	e.gender,
 	s.salary,
 	de.to_date
--- INTO emp_info
+INTO emp_info
 FROM employees as e
 INNER JOIN salaries as s
 ON (e.emp_no = s.emp_no)
