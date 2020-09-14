@@ -37,7 +37,7 @@ INNER JOIN salaries AS s
 ON (e.emp_no = s.emp_no);
 
 
-![''](employee_salary_info.png)
+![''](images/employee_salary_info.png)
 
 
 ### 2. In descending order (by date), list the frequency count of employee titles (i.e., how many employees share the same title?).
@@ -53,7 +53,7 @@ FROM employees AS e
 INNER JOIN titles AS tl
 ON (e.emp_no = tl.emp_no);
 
-![''](all_employee_title)
+![''](images/all_employee_title.png)
 
 -- get count of titles in descending order from date after removing duplicates
 
@@ -69,7 +69,7 @@ GROUP BY
 HAVING count(*) > 1
 ORDER BY from_date DESC;
 
-![''](employees_with_same_titles)
+![''](images/employees_with_same_titles.png)
 
 
 
@@ -95,6 +95,6 @@ AND (de.to_date = '9999-01-01');
 
 
 2382 employees ready for mentors
-![''](mentors.png)
+![''](images/mentors.png)
 
 
