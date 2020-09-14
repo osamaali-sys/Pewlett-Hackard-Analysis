@@ -14,8 +14,7 @@ In the module we discovered the whole companies employees list, we then created 
 thier salaries, titles, retirement info and current employees
 
 ## Challange
-
-In our challange.sql we 
+ 
 1. creted a new table for retiring employees as emp_salary_info.csv
 2. we found and isolated duplicate names in our database as duplicate_names.csv
 3. we found out which employees are ready for mentors in our mentor.csv
@@ -37,7 +36,7 @@ INNER JOIN salaries AS s
 ON (e.emp_no = s.emp_no);
 
 
-![''](images/employee _salary_information.png)
+![''](images/employee_salary_information.png)
 
 
 ### 2. In descending order (by date), list the frequency count of employee titles (i.e., how many employees share the same title?).
