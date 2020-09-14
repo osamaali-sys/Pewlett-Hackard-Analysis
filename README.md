@@ -37,7 +37,7 @@ INNER JOIN salaries AS s
 ON (e.emp_no = s.emp_no);
 
 
-![''](images/employee_salary_info.png)
+![''](images/employee_salary_information.png)
 
 
 ### 2. In descending order (by date), list the frequency count of employee titles (i.e., how many employees share the same title?).
