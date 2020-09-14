@@ -7,7 +7,7 @@ An in depth analysis of companies HR
 This project is a walkthrough of an HR process of company where we discover the details 
 about companies employees who are currently working, retired, positions and titles, salaries etc
 
-!['ERD'](EmployeeDB.png)
+!['ERD'](images/EmployeeDB.png)
 
 ## Module
 In the module we discovered the whole companies employees list, we then created new tables about
