@@ -15,12 +15,12 @@ thier salaries, titles, retirement info and current employees
 
 ## Challange
  
-1. creted a new table for retiring employees as emp_salary_info.csv
+1. Created a new table for retiring employees as emp_salary_info.csv
 2. we found and isolated duplicate names in our database as duplicate_names.csv
 3. we found out which employees are ready for mentors in our mentor.csv
 
 
-### 1. Creted a new table for retiring employees as emp_salary_info.csv
+### 1. Created a new table for retiring employees as emp_salary_info.csv
 Select 
   e.emp_no,
   e.first_name, 
