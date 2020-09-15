@@ -20,7 +20,7 @@ thier salaries, titles, retirement info and current employees
 3. we found out which employees are ready for mentors in our mentor.csv
 
 
-### 1. creted a new table for retiring employees as emp_salary_info.csv
+### 1. Creted a new table for retiring employees as emp_salary_info.csv
 Select 
   e.emp_no,
   e.first_name, 
@@ -72,7 +72,7 @@ ORDER BY from_date DESC;
 
 
 
-### 3. we found out which employees are ready for mentors in our mentor.csv
+### 3. We found out which employees are ready for mentors in our mentor.csv
 
 SELECT 
         e.emp_no,
